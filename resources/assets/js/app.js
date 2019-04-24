@@ -17,7 +17,6 @@ Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
 // Vue.http.headers.common['X-CSRF-TOKEN'] = $('meta[name=_token]').attr('content');
 
-const Example = Vue.component('example', require('./components/ExampleComponent.vue'));
 const App = Vue.component('app', require('./components/App.vue'));
 const Yandex = Vue.component('yandex', require('./components/Yandex.vue'));
 const Propose = Vue.component('propose', require('./components/Propose.vue'));
