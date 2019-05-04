@@ -79,8 +79,8 @@ export default {
   data() {
     return {
       searchDay: "",
-      //url: "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
-      url: "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
+      url: "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+      // url: "https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png",
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       showMap: false
